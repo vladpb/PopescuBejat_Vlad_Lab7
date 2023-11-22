@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PopescuBejat_Vlad_Lab7.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
+
+            <Label Text="Rețetă Carbonara"
+                   FontAttributes="Bold"
+                   FontSize="24"
+                   HorizontalOptions="Center" />
+            
+            <Image Source="carbonara.jpg"
+                   Aspect="AspectFit"
+                   HeightRequest="200"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Ingrediente:"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Spaghete: 400g&#x0a;Guanciale sau pancetta: 200g&#x0a;Oua: 3 galbenusuri si unul intreg&#x0a;Pecorino sau Parmigiano ras: 200g&#x0a;Piper negru: după gust(mult)&#x0a;Sare: după gust"
+                   FontSize="18"
+                   HorizontalOptions="Center" />
+
+            <Label Text="Pași de preparare:"
+                   FontAttributes="Bold"
+                   FontSize="20"
+                   HorizontalOptions="Center" />
+
+            <Label Text="1. Fierbe spaghetele conform instrucțiunilor de pe pachet.
+                   &#x0a;2. Taie guanciale sau pancetta în bucăți mici și prăjește-le până devin crocante.
+                   &#x0a;3. Bate ouăle și amestecă-le cu parmezanul ras și un praf de piper.
+                   &#x0a;4. Scurge pastele, păstrând puțină apă de la fiert.
+                   &#x0a;5. Adaugă pastele fierbinți peste guanciale/pancetta și amestecă rapid.
+                   &#x0a;6. Imediat, adaugă amestecul de ou și parmezan, amestecând continuu.
+                   &#x0a;7. Adaugă puțină apă de la fiertul pastelor pentru a obține o consistență cremoasă.
+                   &#x0a;8. Servește imediat, cu piper proaspăt măcinat deasupra."
+                   FontSize="18"
+                   HorizontalOptions="Center" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
